@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:WPFfirstProject"
         mc:Ignorable="d"
         Title="Congratulatnios .NET Birthday" Height="350" Width="800">
+
     <Grid Background="DarkBlue">
 
         <Grid.ColumnDefinitions>
@@ -31,27 +32,49 @@
                 <TextBlock Grid.Row="4" Text="Time: 9:00 AM - 9:45 AM Pacific Time" FontSize="14" Foreground="Snow" />
                 <TextBlock Grid.Row="5" Text="Location: Tune in right here" FontSize="14" Foreground="Snow"/>
             </Grid>
-            
+
         </Button>
 
         <Button Grid.Column="1" Background="Snow" Margin="10">
-            <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Height="20">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="39*"/>
-                    <ColumnDefinition Width="40*"/>
-                </Grid.ColumnDefinitions>
-                <TextBlock Text="Hello" FontSize="100" FontStyle="Italic"  Height="16" Width="79" Grid.ColumnSpan="2" Margin="0,39,0,39"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="15" FontSize="70" Margin="0,-26,-10,0"  TextAlignment="Left" Foreground="Black"/>
+                <TextBlock Grid.Row="1" Text="February" FontSize="30" Margin="0 10 0 10" Foreground="Black"/>
+                <TextBlock Grid.Row="2" Text="Azure open source day" Margin="0 10 0 10" FontSize="20" Foreground="Black" />
+                <TextBlock Grid.Row="3" Text="Date: February 15, 2022" FontSize="14" Foreground="Black" />
+                <TextBlock Grid.Row="4" Text="Time: 9:00 AM - 10:30 AM Pacific Time" FontSize="14" Foreground="Black" />
+                <TextBlock Grid.Row="5" Text="Location: Online" FontSize="14" Foreground="Black"/>
             </Grid>
+
         </Button>
 
         <Button Grid.Column="2" Background="Snow" Margin="10">
-            <Grid VerticalAlignment="Top" HorizontalAlignment="Left" Height="20">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="39*"/>
-                    <ColumnDefinition Width="40*"/>
-                </Grid.ColumnDefinitions>
-                <TextBlock Text="Hello" FontSize="100" FontStyle="Italic"  Height="16" Width="79" Grid.ColumnSpan="2" Margin="0,39,0,39"/>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="4*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="3*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="2*"/>
+                </Grid.RowDefinitions>
+                <TextBlock Grid.Row="0" Text="17" FontSize="70" Margin="0,-26,-10,0"  TextAlignment="Left" Foreground="Black"/>
+                <TextBlock Grid.Row="1" Text="March" FontSize="30" Margin="0 10 0 10" Foreground="Black"/>
+                <TextBlock Grid.Row="2" Text="Visual Studio 25th" Margin="0 10 0 0" FontSize="20" Foreground="Black" />
+                <TextBlock Grid.Row="3" Text="anniversary broadcast" Margin="0 0 0 0"  FontSize="20" Foreground="Black" />
+                <TextBlock Grid.Row="4" Text="Date: February 14, 2022" FontSize="14" Foreground="Black" />
+                <TextBlock Grid.Row="5" Text="Time: 9:00 AM - 9:45 AM Pacific Time" FontSize="14" Foreground="Black" />
+                <TextBlock Grid.Row="6" Text="Location: Tune in right here" FontSize="14" Foreground="Black"/>
             </Grid>
+
         </Button>
     </Grid>
 </Window>

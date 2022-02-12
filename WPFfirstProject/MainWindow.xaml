@@ -24,12 +24,12 @@
                     <RowDefinition Height="2*"/>
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
-                <TextBlock Grid.Row="0" Text="14" FontSize="70" Foreground="Snow"/>
-                <TextBlock Grid.Row="1" Text="February" FontSize="40" Foreground="Snow"/>
-                <TextBlock Grid.Row="2" Text=".NET anniversary broadcast" FontSize="30" Foreground="Snow" />
-                <TextBlock Grid.Row="3" Text="Date: February 14, 2022" FontSize="20" Foreground="Snow" />
-                <TextBlock Grid.Row="4" Text="Time: 9:00 AM - 9:45 AM Pacific Time" FontSize="20" Foreground="Snow" />
-                <TextBlock Grid.Row="5" Text="Location: Tune in right here" FontSize="20" Foreground="Snow"/>
+                <TextBlock Grid.Row="0" Text="14" FontSize="70" Margin="0,-26,-10,0"  TextAlignment="Left" Foreground="Snow"/>
+                <TextBlock Grid.Row="1" Text="February" FontSize="30" Margin="0 10 0 10" Foreground="Snow"/>
+                <TextBlock Grid.Row="2" Text=".NET anniversary broadcast" Margin="0 10 0 10" FontSize="20" Foreground="Snow" />
+                <TextBlock Grid.Row="3" Text="Date: February 14, 2022" FontSize="14" Foreground="Snow" />
+                <TextBlock Grid.Row="4" Text="Time: 9:00 AM - 9:45 AM Pacific Time" FontSize="14" Foreground="Snow" />
+                <TextBlock Grid.Row="5" Text="Location: Tune in right here" FontSize="14" Foreground="Snow"/>
             </Grid>
             
         </Button>

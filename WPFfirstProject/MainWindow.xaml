@@ -45,7 +45,7 @@
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0" Text="15" FontSize="70" Margin="0,-26,-10,0"  TextAlignment="Left" Foreground="Black"/>
-                <TextBlock Grid.Row="1" Text="February" FontSize="30" Margin="0 10 0 10" Foreground="Black"/>
+                <TextBlock Grid.Row="1" Text="February" FontSize="30" Margin="0 10 0 5" Foreground="Black"/>
                 <TextBlock Grid.Row="2" Text="Azure open source day" Margin="0 10 0 10" FontSize="20" Foreground="Black" />
                 <TextBlock Grid.Row="3" Text="Date: February 15, 2022" FontSize="14" Foreground="Black" />
                 <TextBlock Grid.Row="4" Text="Time: 9:00 AM - 10:30 AM Pacific Time" FontSize="14" Foreground="Black" />
@@ -66,7 +66,7 @@
                     <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
                 <TextBlock Grid.Row="0" Text="17" FontSize="70" Margin="0,-26,-10,0"  TextAlignment="Left" Foreground="Black"/>
-                <TextBlock Grid.Row="1" Text="March" FontSize="30" Margin="0 10 0 10" Foreground="Black"/>
+                <TextBlock Grid.Row="1" Text="March" FontSize="30" Margin="0 10 0 5" Foreground="Black"/>
                 <TextBlock Grid.Row="2" Text="Visual Studio 25th" Margin="0 10 0 0" FontSize="20" Foreground="Black" />
                 <TextBlock Grid.Row="3" Text="anniversary broadcast" Margin="0 0 0 0"  FontSize="20" Foreground="Black" />
                 <TextBlock Grid.Row="4" Text="Date: February 14, 2022" FontSize="14" Foreground="Black" />
